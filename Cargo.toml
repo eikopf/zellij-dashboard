@@ -1,0 +1,8 @@
+[package]
+name = "zellij-dashboard"
+version = "0.1.0"
+authors = ["Oliver Wooding <oliverwooding@icloud.com>"]
+edition = "2023"
+
+[dependencies]
+zellij-tile = "1.0.0"
