@@ -8,7 +8,9 @@ register_plugin!(State);
 impl ZellijPlugin for State {
     fn load(&mut self) {}
 
-    fn update(&mut self, event: Event) {}
+    fn update(&mut self, event: Event) -> bool {
+        false
+    }
 
     fn render(&mut self, rows: usize, cols: usize) {}
 }

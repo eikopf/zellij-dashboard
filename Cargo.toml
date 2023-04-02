@@ -2,7 +2,7 @@
 name = "zellij-dashboard"
 version = "0.1.0"
 authors = ["Oliver Wooding <oliverwooding@icloud.com>"]
-edition = "2023"
+edition = "2021" # i'm an idiot; this refers to the cargo edition
 
 [dependencies]
-zellij-tile = "1.0.0"
+zellij-tile = "0.35.2"
